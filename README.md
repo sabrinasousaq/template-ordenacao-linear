@@ -64,8 +64,6 @@ Perguntas importantes:
 
 Implemente as seguintes questões no tst-eda:
 
-* Counting sort passo a passo (para números negativos)
-* Radix Sort
 * Radix Dois Dígitos
 * Radix Três Dígitos
  
