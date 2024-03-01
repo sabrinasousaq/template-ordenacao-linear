@@ -4,15 +4,11 @@
 * Email (@ccc): 
 * Matrícula: 
 
-# Roteiro: Ordenação $n*logn$
+# Roteiro: Ordenação linear
 
 ## Material Teórico 
 
-[Merge Sort](https://joaoarthurbm.github.io/eda/posts/merge-sort/)
-
-[Quick Sort](https://joaoarthurbm.github.io/eda/posts/quick-sort/)
-
-[Particionamento Hoare](https://joaoarthurbm.github.io/eda/posts/particionamento-hoare/)
+[Counting Sort](https://joaoarthurbm.github.io/eda/posts/ordenacao-linear/)
 
 ## O template
 
@@ -34,18 +30,14 @@
 
 ## Introdução
 
-Este roteiro envolve implementação e teoria dos principais algoritmos de ordenação $n*logn$.
-
-Você vai ver que o design do código do template envolve a interface SortingStrategy e que ambos, MergeSort e QuickSort implementam essa interface. Isso vai facilitar a minha vida no futuro.
+Este roteiro envolve implementação e teoria dos principais algoritmos de ordenação linear.
 
 ## A tarefa. 
 
 ### Implementação e testes
 
 
-**MergeSort.** Comece pelos variados métodos de merge que criei. A explicação do que fazer está como comentário no código. Depois passe para o método de ordenação clássico (que pode ou não usar os métodos que você fez anteriormente). Seu objetivo é passar nos testes que disponibilizei.
-
-**QuickSort.** A explicação do que fazer está como comentário no código.
+**CountingSort.** Implemente os métodos da classe CountingSort. A explicação do que fazer está como comentário no código. Seu objetivo é passar nos testes que disponibilizei.
 
 Ah...confira (sempre!) se você passa nos testes: `gradle test`.
 
@@ -55,36 +47,28 @@ Ah...confira (sempre!) se você passa nos testes: `gradle test`.
 
 Perguntas importantes:
   
-  * Qual o pior caso do merge sort? e o melhor? e o caso médio? Por que?
+  * Apresente um exemplo concreto em que o Counting Sort é muito adequado.
 
   > INSIRA AQUI SUA RESPOSTA
   
-  * Qual o pior caso do quick sort?
+  * Apresente um exemplo concreto em que o Counting Sort não é uma boa alternativa para ordenação.
 
   > INSIRA SUA RESPOSTA AQUI
 
-  * Que estratégias discutimos para escolher bons pivots?
+  * Qual problema do Counting Sort o Radix Sort resolve? Como? 
 
   > INSIRA AQUI SUA RESPOSTA
 
-  * Explique a mediana de 3 como estratégia para escolher um pivot.
-
-  > INSIRA SUA RESPOSTA AQUI
-
-  * O merge sort é in-place? Explique.
-
-  > INSIRA SUA RESPOSTA AQUI
-
-  * O quick sort é in-place? Explique.
-
-  > INSIRA SUA RESPOSTA AQUI
-  
     
 ## Mais estudo
 
 Implemente as seguintes questões no tst-eda:
 
-* 
+* Counting sort passo a passo (para números negativos)
+* Radix Sort
+* Radix Dois Dígitos
+* Radix Três Dígitos
+ 
 ## Entregando o lab
 
 > Passo 0. Modifique o arquivo README. Coloque seu nome, email @ccc e matrícula nos lugares indicados. Se você não fizer isso, não considero que sua prova foi assinada e, portanto, não vou corrigir. Não mude a formatação da linha. Apenas inclua seus dados.
