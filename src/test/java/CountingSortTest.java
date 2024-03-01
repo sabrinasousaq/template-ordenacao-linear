@@ -19,7 +19,7 @@ public class CountingSortTest {
         assertArrayEquals(sorting.classicCountingSort(v, 10), new int[]{1, 1, 1, 2, 2, 3, 4, 5, 5, 10, 10}); 
 
         v = new int[]{1, 1, 1, 2, 2 ,2};
-        assertArrayEquals(sorting.classicCountingSort(v, 1), new int[]{1, 1, 1, 2, 2, 2}); 
+        assertArrayEquals(sorting.classicCountingSort(v, 2), new int[]{1, 1, 1, 2, 2, 2}); 
     }
 
     @Test
