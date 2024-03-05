@@ -32,6 +32,9 @@ public class CountingSortTest {
 
         v = new int[]{10, 2, 3, 4, 1, 1, 5, 1, 2, 10, 5, 0, 0};
         assertArrayEquals(sorting.zeroCountingSort(v, 10), new int[]{0, 0, 1, 1, 1, 2, 2, 3, 4, 5, 5, 10, 10}); 
+
+        v = new int[]{0, 0, 0};
+        assertArrayEquals(sorting.zeroCountingSort(v, 0), new int[]{0, 0, 0}); 
     }   
 
     @Test
