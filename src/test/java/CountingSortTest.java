@@ -49,10 +49,4 @@ public class CountingSortTest {
         assertArrayEquals(sorting.negativosCountingSort(v, 10), new int[]{-2, -1, -1, 0, 0, 1, 1, 1, 2, 2, 3, 4, 5, 5, 10, 10}); 
     }   
 
-
-
 }
-
-
-
-
