@@ -9,17 +9,17 @@ public class RadixSortTest {
 
     @Test
     public void testSort() {
-        v = new int[]{8, 1, 78, 45, 3, 2, 103};
-        assertArrayEquals(sorting.radixSort(v), new int[]{1, 2, 3, 8, 45, 78, 103});	
+        v = new int[]{800, 100, 780, 450, 300, 200, 103};
+        assertArrayEquals(sorting.radixSort(v), new int[]{100, 103, 200, 300, 450, 780, 800});	
 
         v = new int[]{2};
         assertArrayEquals(sorting.radixSort(v), new int[]{2}); 
 
-        v = new int[]{10, 2, 3, 4, 1, 1, 5, 1, 2, 10, 5};
-        assertArrayEquals(sorting.radixSort(v), new int[]{1, 1, 1, 2, 2, 3, 4, 5, 5, 10, 10}); 
+        v = new int[]{2, 3, 4, 1, 1, 5, 1, 2, 5};
+        assertArrayEquals(sorting.radixSort(v), new int[]{1, 1, 1, 2, 2, 3, 4, 5, 5}); 
 
-        v = new int[]{1, 1, 1, 2, 2 ,2};
-        assertArrayEquals(sorting.radixSort(v), new int[]{1, 1, 1, 2, 2, 2}); 
+        v = new int[]{1111, 1111, 1111, 2222, 2222 ,2222};
+        assertArrayEquals(sorting.radixSort(v), new int[]{1111, 1111, 1111, 2222, 2222, 2222}); 
     }
 
 
