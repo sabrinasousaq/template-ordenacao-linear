@@ -1,5 +1,3 @@
-package sorting;
-
 public class RadixSort {
 
 	// Você pode assumir que todos os valores possuem a mesma quantidade de dígitos
