@@ -29,10 +29,10 @@ public class CountingSort {
     * Implemente uma versão do counting sort que aceita valor 0 na coleção original.
     */
     public int[] zeroCountingSort(int[] v, int k) {
-       int[] c = new int[k];
+       int[] c = new int[k + 1];
        //frequência
        for(int i = 0; i < v.length; i++) {
-            c[v[i] + 1] += 1;
+            c[v[i]] += 1;
        }
        //cumulativa
        for(int i = 1; i < c.length; i++) {
@@ -41,8 +41,8 @@ public class CountingSort {
        int[] b = new int[v.length];
        //ordenada
        for(int i = v.length-1; i >= 0; i--) {
-            b[c[v[i]+1] - 1] = v[i];
-            c[v[i]+1] --;
+            b[c[v[i]] - 1] = v[i];
+            c[v[i]] --;
        }
 
        return b;
