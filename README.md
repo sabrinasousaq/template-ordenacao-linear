@@ -47,15 +47,15 @@ Perguntas importantes:
   
   * Apresente um exemplo concreto em que o Counting Sort é muito adequado.
 
-  > INSIRA AQUI SUA RESPOSTA
+  > Por exemplo, ordenar a idade de todas as pessoas do mundo. "0-180". São 10 dígitos de 0-9, ou seja, todas as entradas são inteiros positivos.
   
   * Apresente um exemplo concreto em que o Counting Sort não é uma boa alternativa para ordenação.
 
-  > INSIRA SUA RESPOSTA AQUI
+  > Quando o K é muito maior que o N, por exemplo, um array A com os elementos -3 10 70.000.000: Chamando o array de frequência de B: B terá muitas posições vazias, formam "buracos" dentro do array. 
 
   * Qual problema do Counting Sort o Radix Sort resolve? Como? 
 
-  > INSIRA AQUI SUA RESPOSTA
+  > Resolve a ineficiência de trabalhar com entradas muito maiores, facilita a ordenação com K maior.
 
     
 ## Mais estudo

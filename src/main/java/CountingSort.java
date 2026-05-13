@@ -18,7 +18,7 @@ public class CountingSort {
 
     /**
     * Implemente uma versão do counting sort que aceita valores negativos na coleção original. Você
-    * vai precisar identificar o menor elemento do array. FAça isso no início do método.
+    * vai precisar identificar o menor elemento do array. Faça isso no início do método.
     */
     public int[] negativosCountingSort(int[] v, int k) {
         // TODO implementar
